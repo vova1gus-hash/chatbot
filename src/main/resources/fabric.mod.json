@@ -1,17 +1,23 @@
 {
   "schemaVersion": 1,
   "id": "chatbot",
-  "version": "${version}",
-  "name": "Chatbot",
-  "description": "Автоответчик в чате Minecraft",
-  "environment": "client",
+  "version": "1.0.0",
+  "name": "Chatbot Mod",
+  "description": "My first Fabric mod!",
+  "authors": [
+    "vova1gus-hash"
+  ],
+  "license": "MIT",
+  "environment": "*",
   "entrypoints": {
-    "client": ["ru.jeremy.chatbot.ChatbotMod"]
+    "client": [
+      "ru.chatbot.ChatbotMod"
+    ]
   },
   "depends": {
-    "fabricloader": ">=0.15.0",
-    "fabric-api": "*",
+    "fabricloader": ">=0.14.21",
     "minecraft": "~1.20.1",
-    "java": ">=17"
+    "java": ">=17",
+    "fabric-api": "*"
   }
 }
