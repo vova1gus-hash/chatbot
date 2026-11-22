@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "chatbot",
+  "version": "${version}",
+  "name": "Chatbot",
+  "description": "Автоответчик в чате Minecraft",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.jeremy.chatbot.ChatbotMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
